@@ -7,7 +7,7 @@
 
     app.controller("GreetingsController", ["$http",
         function($http) {
-            this.GREETINGS_API = "http://localhost:8080/greetings";
+            this.GREETINGS_API = "http://greetings-app.herokuapp.com/api/greetings";
             this.newGreeting = {'date': Date.now()};
             this.loading = false;
             var greetingCtrl = this;
