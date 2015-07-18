@@ -8,7 +8,7 @@
     app.directive("greetingForm", function(){
         return {
             restrict: "E",
-            templateUrl: "greeting-form/greeting-form.html"
+            templateUrl: "app/greeting-form/greeting-form.html"
         };
     });
 

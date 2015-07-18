@@ -24,8 +24,8 @@
                 this.loading = true;
                 $http.get(this.GREETINGS_API)
                     .success(function (data) {
-                        if (data._embedded.greetings)
-                            greetingCtrl.greetings = data._embedded.greetings;
+                        if (data.greetings)
+                            greetingCtrl.greetings = data.greetings;
                         else
                             greetingCtrl.greetings = data;
                     });

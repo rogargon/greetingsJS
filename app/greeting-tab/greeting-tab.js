@@ -8,7 +8,7 @@
     app.directive('greetingTab', function(){
         return {
             restrict: 'E',
-            templateUrl: 'greeting-tab/greeting-tab.html',
+            templateUrl: 'app/greeting-tab/greeting-tab.html',
             controller: function() {
                 this.tab = 1;
 
